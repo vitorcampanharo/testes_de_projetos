@@ -5,21 +5,208 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 1</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        :root{
+            --cinza: rgb(194, 190, 190);
+        }
+        header{
+            background-color: rgb(90, 90, 90);
+            height: 70px;
+        }
+        header h1{
+            text-align: center;
+            padding: 5px;
+        }
+        nav{
+            background-color: rgb(90, 90, 90);
+            padding: 5px;
+        }
+        nav a{
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            text-decoration: none;
+        }
+        nav a:hover{
+            text-decoration: underline;
+            background-color: black;
+            color: white;
+        }
+        main, article, footer{
+            padding: 5px;
+        }
+        main{
+            margin: auto;
+            max-width: 800px;
+            min-width: 400px;
+        }
+        #manchete{
+            background-color: var(--cinza);
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
+            padding: 5px;
+            margin-top: 20px;
+        }
+        #manchete h1{
+            font-size: 1.4em;
+            text-align: center;
+            text-decoration: underline;
+        }
+        #manchete p{
+            text-indent: 10px;
+            line-height: 20px;
+        }
+        #manchete h1, #manchete h3, #manchete p{
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            margin-top: 10px;
+        }
+        footer p{
+            color: white;
+            text-align: center;
+        }
+        table{
+            width: 800px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 3px;
+            text-align: center;
+        }
+        .tabela_responsiva{
+            overflow: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
-        
+        <h1>Seu jornal</h1>
     </header>
     <nav>
-
+        <a href="#">Novidades</a>
+        <a href="#">Mais lidas</a>
+        <a href="#">Acesso restrito</a>
+        <a href="#">Contato</a>
     </nav>
     <main>
         <article>
-
+            <section id="manchete">
+                <h1>Tema principal</h1>
+                <h3>Tema secundário</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quasi omnis mollitia dolorem sit, voluptas, rem enim inventore eum optio sunt? Eligendi, consequatur? Assumenda repellendus neque consequuntur expedita! Dolorem, eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit reiciendis voluptates quos recusandae voluptate nihil dicta sint ducimus molestiae adipisci amet mollitia, vitae quibusdam saepe, est, consequuntur laborum! Distinctio, reiciendis!</p>
+            </section>
+            <section id="manchete">
+                <h1>Tema principal</h1>
+                <h3>Tema secundário</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quasi omnis mollitia dolorem sit, voluptas, rem enim inventore eum optio sunt? Eligendi, consequatur? Assumenda repellendus neque consequuntur expedita! Dolorem, eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit reiciendis voluptates quos recusandae voluptate nihil dicta sint ducimus molestiae adipisci amet mollitia, vitae quibusdam saepe, est, consequuntur laborum! Distinctio, reiciendis!</p>
+            </section>
+            <section id="manchete">
+                <h1>Tema principal</h1>
+                <h3>Tema secundário</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quasi omnis mollitia dolorem sit, voluptas, rem enim inventore eum optio sunt? Eligendi, consequatur? Assumenda repellendus neque consequuntur expedita! Dolorem, eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit reiciendis voluptates quos recusandae voluptate nihil dicta sint ducimus molestiae adipisci amet mollitia, vitae quibusdam saepe, est, consequuntur laborum! Distinctio, reiciendis!</p>
+            </section>
+            <section id="manchete">
+                <h1>Tema principal</h1>
+                <h3>Tema secundário</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quasi omnis mollitia dolorem sit, voluptas, rem enim inventore eum optio sunt? Eligendi, consequatur? Assumenda repellendus neque consequuntur expedita! Dolorem, eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit reiciendis voluptates quos recusandae voluptate nihil dicta sint ducimus molestiae adipisci amet mollitia, vitae quibusdam saepe, est, consequuntur laborum! Distinctio, reiciendis!</p>
+            </section>
+            <section id="manchete">
+                <h1>Tema principal</h1>
+                <h3>Tema secundário</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quasi omnis mollitia dolorem sit, voluptas, rem enim inventore eum optio sunt? Eligendi, consequatur? Assumenda repellendus neque consequuntur expedita! Dolorem, eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit reiciendis voluptates quos recusandae voluptate nihil dicta sint ducimus molestiae adipisci amet mollitia, vitae quibusdam saepe, est, consequuntur laborum! Distinctio, reiciendis!</p>
+            </section>
+            <section id="manchete">
+                <h1>Estatisticas</h1>
+                <h3>Comparações</h3>
+                <div class="tabela_responsiva">
+                    <table>
+                        <tr>
+                            <td>um</td>
+                            <td>dois</td>
+                            <td>tres</td>
+                            <td>quatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                            <td>sete</td>
+                            <td>oito</td>
+                            <td>nove</td>
+                            <td>dez</td>
+                        </tr>
+                        <tr>
+                            <td>um</td>
+                            <td>dois</td>
+                            <td>tres</td>
+                            <td>quatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                            <td>sete</td>
+                            <td>oito</td>
+                            <td>nove</td>
+                            <td>dez</td>
+                        </tr>
+                        <tr>
+                            <td>um</td>
+                            <td>dois</td>
+                            <td>tres</td>
+                            <td>quatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                            <td>sete</td>
+                            <td>oito</td>
+                            <td>nove</td>
+                            <td>dez</td>
+                        </tr>
+                        <tr>
+                            <td>um</td>
+                            <td>dois</td>
+                            <td>tres</td>
+                            <td>quatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                            <td>sete</td>
+                            <td>oito</td>
+                            <td>nove</td>
+                            <td>dez</td>
+                        </tr>
+                        <tr>
+                            <td>um</td>
+                            <td>dois</td>
+                            <td>tres</td>
+                            <td>quatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                            <td>sete</td>
+                            <td>oito</td>
+                            <td>nove</td>
+                            <td>dez</td>
+                        </tr>
+                        <tr>
+                            <td>um</td>
+                            <td>dois</td>
+                            <td>tres</td>
+                            <td>quatro</td>
+                            <td>cinco</td>
+                            <td>seis</td>
+                            <td>sete</td>
+                            <td>oito</td>
+                            <td>nove</td>
+                            <td>dez</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
         </article>
     </main>
     <footer>
-
+        <p>Escrito por Vitor Campanharo</p>
     </footer>
 </body>
 </html>
